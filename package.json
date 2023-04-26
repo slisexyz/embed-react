@@ -1,6 +1,6 @@
 {
 	"name": "@slise/embed-react",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "React component to embed Slise into your website",
 	"main": "./lib/index.js",
 	"files": [
