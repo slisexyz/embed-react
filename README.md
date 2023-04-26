@@ -1,12 +1,12 @@
 # @slise/embed-react
 
-[![npm package][npm-img]][npm-url]
-[![Build Status][build-img]][build-url]
-[![Downloads][downloads-img]][downloads-url]
-[![Issues][issues-img]][issues-url]
-[![Code Coverage][codecov-img]][codecov-url]
-[![Commitizen Friendly][commitizen-img]][commitizen-url]
-[![Semantic Release][semantic-release-img]][semantic-release-url]
+[![npm package](https://img.shields.io/npm/v/typescript-npm-package-template)](https://www.npmjs.com/package/typescript-npm-package-template)
+[![Build Status](https://github.com/slisexyz/embed-react/actions/workflows/release.yml/badge.svg)](https://github.com/slisexyz/embed-react/actions/workflows/release.yml)
+[![Downloads](https://img.shields.io/npm/dt/typescript-npm-package-template)](https://www.npmtrends.com/typescript-npm-package-template)
+[![Issues](https://img.shields.io/github/issues/slisexyz/embed-react)](https://github.com/slisexyz/embed-react/issues)
+[![Code Coverage](https://codecov.io/gh/slisexyz/embed-react/branch/main/graph/badge.svg)](https://codecov.io/gh/slisexyz/embed-react)
+[![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 > React component to embed Slise into your website
 
@@ -22,17 +22,17 @@ npm install @slise/embed-react
 import { SliseAd } from '@slise/embed-react'
 
 export const App: React.FC = () => {
-	return (
-		<div>
-			<p>Leaderboard example:</p>
-			<SliseAd
-				style = {{ display: "inline-block", width: "728px", height: "90px" }}
-				slotId = "1"
-				pub = "pub-12345"
-				format = "728x90,364x45"
-			/>
-		</div>
-	)
+    return (
+        <div>
+            <p>Leaderboard example:</p>
+            <SliseAd
+                style = {{ display: "inline-block", width: "728px", height: "90px" }}
+                slotId = "1"
+                pub = "pub-12345"
+                format = "728x90,364x45"
+            />
+        </div>
+    )
 }
 ```
 
@@ -68,17 +68,3 @@ You can add any valid React CSS styles to the ad.
 
 Displays Slise ad in an iframe.
 
-[build-img]:https://github.com/slisexyz/embed-react/actions/workflows/release.yml/badge.svg
-[build-url]:https://github.com/slisexyz/embed-react/actions/workflows/release.yml
-[downloads-img]:https://img.shields.io/npm/dt/typescript-npm-package-template
-[downloads-url]:https://www.npmtrends.com/typescript-npm-package-template
-[npm-img]:https://img.shields.io/npm/v/typescript-npm-package-template
-[npm-url]:https://www.npmjs.com/package/typescript-npm-package-template
-[issues-img]:https://img.shields.io/github/issues/slisexyz/embed-react
-[issues-url]:https://github.com/slisexyz/embed-react/issues
-[codecov-img]:https://codecov.io/gh/slisexyz/embed-react/branch/main/graph/badge.svg
-[codecov-url]:https://codecov.io/gh/slisexyz/embed-react
-[semantic-release-img]:https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[semantic-release-url]:https://github.com/semantic-release/semantic-release
-[commitizen-img]:https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
-[commitizen-url]:http://commitizen.github.io/cz-cli/
