@@ -25,6 +25,7 @@ export const SliseAd: React.FC<SliseAdProps> = props =>
 	const [_loading, _error] = useScript({
 		src: "https://v1.slise.xyz/scripts/embed.js",
 		checkForExisting: true,
+		async: true,
 	})
 	return (
 		<ins
