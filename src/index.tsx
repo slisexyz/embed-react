@@ -33,6 +33,17 @@ export const SliseAd: React.FC<SliseAdProps> = props =>
 			data-ad-slot={props.slotId}
 			data-ad-pub={props.pub}
 			data-ad-format={props.format}
-		></ins>
+		>
+			<div
+				style={{
+					width: props.style?.width,
+					height: props.style?.height,
+					maxWidth: props.style?.maxWidth,
+					maxHeight: props.style?.maxHeight,
+					minWidth: props.style?.minWidth,
+					minHeight: props.style?.minHeight,
+				}}
+			></div>
+		</ins>
 	)
 }
