@@ -41,6 +41,9 @@
 		"url": "https://github.com/slisexyz/embed-react/issues"
 	},
 	"homepage": "https://github.com/slisexyz/embed-react#readme",
+	"dependencies": {
+		"react-script-hook": "^1.7.2"
+	},
 	"devDependencies": {
 		"@ryansonshine/commitizen": "^4.2.8",
 		"@ryansonshine/cz-conventional-changelog": "^3.3.4",
