@@ -15,6 +15,10 @@
 ```bash
 npm install @slise/embed-react
 ```
+or
+```bash
+yarn add @slise/embed-react
+```
 
 ## Usage
 
