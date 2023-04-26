@@ -2,6 +2,8 @@ import {} from "../src"
 
 describe("index", () => {
 	describe("myPackage", () => {
-		console.log("skipped")
+		it("stub test", () => {
+			console.log("skipped")
+		})
 	})
 })
