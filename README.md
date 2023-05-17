@@ -1,8 +1,8 @@
 # @slise/embed-react
 
-[![npm package](https://img.shields.io/npm/v/typescript-npm-package-template)](https://www.npmjs.com/package/typescript-npm-package-template)
+[![npm package](https://img.shields.io/npm/v/@slise/embed-react)](https://www.npmjs.com/package/@slise/embed-react)
 [![Build Status](https://github.com/slisexyz/embed-react/actions/workflows/release.yml/badge.svg)](https://github.com/slisexyz/embed-react/actions/workflows/release.yml)
-[![Downloads](https://img.shields.io/npm/dt/typescript-npm-package-template)](https://www.npmtrends.com/typescript-npm-package-template)
+[![Downloads](https://img.shields.io/npm/dt/@slise/embed-react)](https://www.npmtrends.com/@slise/embed-react)
 [![Issues](https://img.shields.io/github/issues/slisexyz/embed-react)](https://github.com/slisexyz/embed-react/issues)
 [![Code Coverage](https://codecov.io/gh/slisexyz/embed-react/branch/main/graph/badge.svg)](https://codecov.io/gh/slisexyz/embed-react)
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
