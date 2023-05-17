@@ -9,7 +9,10 @@ export type SliseAdProps = {
 	format: string
 
 	style?: React.CSSProperties
+	__overrideSliseHost?: string
 }
+
+const DEFAULT_SLISE_HOST = "https://v1.slise.xyz"
 
 export const SliseAd: React.FC<SliseAdProps> = props => 
 {
@@ -25,7 +28,7 @@ export const SliseAd: React.FC<SliseAdProps> = props =>
 		addSlot()
 	}, [addSlot])
 	const [_loading, _error] = useScript({
-		src: "https://v1.slise.xyz/scripts/embed.js",
+		src: `${props.__overrideSliseHost || DEFAULT_SLISE_HOST}/scripts/embed.js`,
 		checkForExisting: true,
 		async: true,
 	})
